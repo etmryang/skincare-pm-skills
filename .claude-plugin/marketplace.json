@@ -1,0 +1,42 @@
+{
+  "name": "skincare-pm-skills",
+  "owner": {
+    "name": "etmryang"
+  },
+  "metadata": {
+    "description": "护肤品/美妆产品经理的 AI 技能市场：消费者洞察、产品开发、法规合规、渠道上市、电商增长、品牌战略全流程",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "spm-insight",
+      "source": "./spm-insight",
+      "description": "消费者洞察：肤质用户画像、访谈脚本、社媒聆听、概念测试、护肤场景 JTBD（5 技能、2 命令）"
+    },
+    {
+      "name": "spm-development",
+      "source": "./spm-development",
+      "description": "产品开发：产品概念书、成分卖点转化、打样评审、包材 brief、成本毛利测算、肤感感官评估（6 技能、2 命令）"
+    },
+    {
+      "name": "spm-regulatory",
+      "source": "./spm-regulatory",
+      "description": "法规合规：中国化妆品备案/注册、功效宣称合规、标签审核、功效测试要求（4 技能、2 命令）"
+    },
+    {
+      "name": "spm-gtm",
+      "source": "./spm-gtm",
+      "description": "上市与渠道：上市计划、定价毛利结构、渠道策略、达人投放 brief、大促规划（5 技能、2 命令）"
+    },
+    {
+      "name": "spm-growth",
+      "source": "./spm-growth",
+      "description": "增长与数据：电商漏斗分析、复购分析、评论挖掘、素材与详情页 A/B 测试（4 技能、1 命令）"
+    },
+    {
+      "name": "spm-strategy",
+      "source": "./spm-strategy",
+      "description": "品牌战略：品牌定位、产品线规划、竞品拆解、市场规模测算（4 技能、1 命令）"
+    }
+  ]
+}
