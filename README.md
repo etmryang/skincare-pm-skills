@@ -6,6 +6,8 @@
 
 📖 **第一次用？先看 [零基础上手指南](使用指南.md)** ——概念、安装、怎么输入、真实例子，5 分钟上手。
 
+[跨平台技能索引](INDEX.md)列出了各技能文件和对应命令。
+
 ## 六大插件（28 技能 · 10 命令）
 
 | 插件 | 技能 | 命令 |
@@ -36,7 +38,7 @@ claude plugin install spm-development@skincare-pm-skills
 ### 推送到 GitHub 后
 
 ```bash
-claude plugin marketplace add <你的用户名>/skincare-pm-skills
+claude plugin marketplace add etmryang/skincare-pm-skills
 ```
 
 ## 典型工作流串联
